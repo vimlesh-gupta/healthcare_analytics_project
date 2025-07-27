@@ -1,3 +1,11 @@
+# Python & Data Project Ignore
+*.csv
+*.xlsx
+*.pkl
+*.db
+*.zip
+*.log
+
 # Python cache
 __pycache__/
 *.pyc
@@ -19,7 +27,7 @@ PyCharm settings
 # Data outputs
 data/cleaned/
 data/processed/
-*.log
+
 
 # OS-specific
 .DS_Store

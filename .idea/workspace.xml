@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a060b21-6b65-4635-a3e4-10233ffbda0f" name="Changes" comment="🔧 Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase" />
+    <list default="true" id="1a060b21-6b65-4635-a3e4-10233ffbda0f" name="Changes" comment="🔧 Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vimlesh-gupta"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/vimlesh-gupta/e-commerce_fake_api_dashboard",
+    "url": "https://github.com/vimlesh-gupta/healthcare_analytics_project.git",
     "accountId": "77bb18ee-c492-4106-9693-d7c1aab161e5"
   }
 }]]></component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -37,21 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.clean_and_generate_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clean_cities_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clean_hospital_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_generation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Data Analytics Project/helthcare_analytics_project/data/raw&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.clean_and_generate_data.executor": "Run",
+    "Python.clean_cities_data.executor": "Run",
+    "Python.clean_hospital_data.executor": "Run",
+    "Python.data_generation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Data Analytics Project/helthcare_analytics_project/data/raw",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Data Analytics Project\helthcare_analytics_project\data\raw" />
@@ -136,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753616823086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="🔧 Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase">
+      <option name="closed" value="true" />
+      <created>1753617213421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753617213421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
