@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a060b21-6b65-4635-a3e4-10233ffbda0f" name="Changes" comment="🔧 Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase">
+    <list default="true" id="1a060b21-6b65-4635-a3e4-10233ffbda0f" name="Changes" comment="&quot;🔧 Fix .gitignore: remove ignored files and apply ignore rules&quot;">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -154,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753617213421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;🔧 Fix .gitignore: remove ignored files and apply ignore rules&quot;">
+      <option name="closed" value="true" />
+      <created>1753618721089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753618721089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase" />
+    <MESSAGE value="&quot; Fix .gitignore: remove ignored files and apply ignore rules&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot; Fix .gitignore: remove ignored files and apply ignore rules&quot;" />
   </component>
 </project>
