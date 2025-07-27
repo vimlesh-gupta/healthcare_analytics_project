@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a060b21-6b65-4635-a3e4-10233ffbda0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/helthcare_analytics_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean_and_generate_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/raw/HospitalsInIndia.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csv_eda/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sql_eda/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="1a060b21-6b65-4635-a3e4-10233ffbda0f" name="Changes" comment="🔧 Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vimlesh-gupta/e-commerce_fake_api_dashboard",
+    "accountId": "77bb18ee-c492-4106-9693-d7c1aab161e5"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -138,6 +128,15 @@
       <option name="presentableId" value="Default" />
       <updated>1753378188099</updated>
     </task>
+    <task id="LOCAL-00001" summary="🔧 Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase">
+      <option name="closed" value="true" />
+      <created>1753616823086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753616823086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Setup project structure &amp; generated synthetic healthcare datasets&#10;&#10;- Created modular folder structure: /raw, /processed, /src&#10;- Generated realistic synthetic data using Faker for:&#10;  • Patients (100K)&#10;  • Doctors (65K)&#10;  • Hospitals (~13K)&#10;  • Appointments (300K)&#10;  • Diagnosis records (50K)&#10;  • Emergency cases (25K)&#10;  • Insurance policies (50K)&#10;  • Churn labels (based on last appointment)&#10;- Added city/state mapping and random assignments for realism&#10;- Linked patient-doctor-hospital-insurance data meaningfully&#10;- CSVs stored in /data/processed for Power BI/EDA/modeling&#10;&#10;✅ Ready for EDA, Power BI dashboards, and ML modeling phase" />
   </component>
 </project>
