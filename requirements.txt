@@ -1,0 +1,10 @@
+faker
+pandas
+numpy
+seaborn
+matplotlib
+sqlalchemy
+psycopg2
+scikit-learn
+jupyterlab
+tqdm
