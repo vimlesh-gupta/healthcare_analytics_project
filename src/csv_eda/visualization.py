@@ -35,7 +35,7 @@ def plot_common_disease(df_patients, top_n):
     plt.title("Top diseases across India")
     plt.gca().invert_yaxis()
     plt.tight_layout()
-    plt.savefig(f"{output_path}/common_diseases_across_india.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/common_diseases_across_india.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_common_age_group_by_critical_illness(df_diagnosis, df_patients, top_n):
@@ -49,7 +49,7 @@ def plot_common_age_group_by_critical_illness(df_diagnosis, df_patients, top_n):
     plt.title("Top Age Group By Critical Illness")
     plt.gca().invert_yaxis()
     plt.tight_layout()
-    plt.savefig(f"{output_path}/age_group_by_critical_illness.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/age_group_by_critical_illness.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_disease_frequency_by_gender(df_patients, top_n):
@@ -61,7 +61,7 @@ def plot_disease_frequency_by_gender(df_patients, top_n):
     plt.ylabel('Count')
     plt.title("Disease Frequency By Gender")
     plt.tight_layout()
-    plt.savefig(f"{output_path}/disease_frequency_by_gender.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/disease_frequency_by_gender.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_patients_by_state(df_patients, top_n):
@@ -74,7 +74,7 @@ def plot_patients_by_state(df_patients, top_n):
     plt.ylabel("Patient Count")
     plt.title("Patients Distribution by State")
     plt.tight_layout()
-    plt.savefig(f"{output_path}/patients_distribution_by_state.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/patients_distribution_by_state.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_registration_trends_over_time(df_patients):
@@ -86,7 +86,7 @@ def plot_registration_trends_over_time(df_patients):
     plt.ylabel("Patients Count")
     plt.title("Registration Trends Over Time")
     plt.tight_layout()
-    plt.savefig(f"{output_path}/registration_trends_over_time.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/registration_trends_over_time.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_emergency_cases_type(df_emergency_cases):
@@ -96,7 +96,7 @@ def plot_emergency_cases_type(df_emergency_cases):
     plt.pie(emergency_cases_by_type, labels=emergency_cases_by_type.index, autopct='%1.1f%%', startangle=140)
     plt.title("Emergency Cases By Severity Type")
     plt.tight_layout()
-    plt.savefig(f"{output_path}/emergency_cases_by_type.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/emergency_cases_by_type.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_risk_level_vs_age(df_patients, df_diagnosis):
@@ -109,7 +109,7 @@ def plot_risk_level_vs_age(df_patients, df_diagnosis):
     plt.xlabel("Risk Level")
     plt.ylabel("Age")
     plt.tight_layout()
-    plt.savefig(f"{output_path}/risk_level_vs_age.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/risk_level_vs_age.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_diagnosis_count_per_doctor(df_doctors, df_appointments, df_diagnosis, top_n):
@@ -135,7 +135,7 @@ def plot_hospital_capacity_vs_appointments(df_hospitals, df_appointments):
     plt.xlabel("Hospital Capacity")
     plt.ylabel("Appointment Count")
     plt.tight_layout()
-    plt.savefig(f"{output_path}/hospital_capacity_vs_appontments.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/hospital_capacity_vs_appontments.png", bbox_inches="tight",dpi=300)
     plt.show()
 
 def plot_appointments_needing_follow_up_by_disease(df_appointments, df_patients, top_n):
@@ -149,5 +149,5 @@ def plot_appointments_needing_follow_up_by_disease(df_appointments, df_patients,
     plt.title("Appointment Needing Follow Up by Disease")
     plt.gca().invert_yaxis()
     plt.tight_layout()
-    plt.savefig(f"{output_path}/appointment_needing_follow_up_by_disease.png", bbox_inches="tight")
+    plt.savefig(f"{output_path}/appointment_needing_follow_up_by_disease.png", bbox_inches="tight",dpi=300)
     plt.show()

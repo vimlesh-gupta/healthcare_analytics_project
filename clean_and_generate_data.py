@@ -206,7 +206,7 @@ df_last_visit['last_visit_date'] = pd.to_datetime(df_last_visit['last_visit_date
 df_last_visit['days_since_last_visit'] = (today - df_last_visit['last_visit_date']).dt.days
 df_last_visit['churn'] = df_last_visit['days_since_last_visit'].apply(lambda x: 1 if x > 90 else 0)
 
-df_churn_label = df_last_visit[['patient_id', 'last_visit_date', 'churn']]
+df_churn_label = df_last_visit[['patient_id', 'last_visit_date', 'days_since_last_visit','churn']]
 df_churn_label.to_csv(f"{DATA_PROCESSED}/churn_label.csv", index=False)
 
 # --------------------------------------
